@@ -21,28 +21,36 @@ public class OperadoresAritmeticos {
         float m = (n1 + n2)/2;
         System.out.println("A média é:" + m); */
         
-       // incremento 
+       /* incremento 
        
        int numero = 10;
        int valor =  5 + ++numero;
         System.out.println(valor);
-        System.out.println(numero);
+        System.out.println(numero); */
                       
-       // decremento
+       /* decremento
        
        int num = 10;
        int val = 5 + --numero;
         System.out.println(num);
-        System.out.println(val);
+        System.out.println(val); */
         
-        // atribuições
+        /* atribuições
         
         int x = 4;
         int y = 4;
         x += 2;
         y *= 2;
         System.out.println("soma: " + x);
-        System.out.println("multiplicação: " + y);
+        System.out.println("multiplicação: " + y); */
+        
+        /*float v = 8.6f;
+        int ar = (int) Math.round(v);
+        System.out.println(ar);*/
+        
+        double ale = Math.random();
+        int n = (int) (10 + ale * (100-10));
+        System.out.println(n);
        
     }
     
